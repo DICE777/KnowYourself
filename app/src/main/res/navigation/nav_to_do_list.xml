@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/main_screen"
+    android:id="@+id/nav_to_do_list.xml">
+
+    <fragment
+        android:id="@+id/main_screen"
+        tools:layout="@layout/activity_main">
+
+        <action
+            android:id="@+id/action_main_screen_to_do_list_fragment"
+            app:destination="@+id/fragment_to_do_list" />
+
+    </fragment>
+    
+</navigation>
