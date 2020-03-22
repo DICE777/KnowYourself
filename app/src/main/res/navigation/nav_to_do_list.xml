@@ -11,9 +11,14 @@
 
         <action
             android:id="@+id/action_main_screen_to_do_list_fragment"
-            app:destination="@+id/fragment_to_do_list" />
+            app:destination="@id/fragment_to_do_list" />
 
     </fragment>
-   
 
+    <fragment
+        android:id="@+id/fragment_to_do_list"
+        tools:layout="@layout/fragment_to_do_list">
+
+    </fragment>
+    
 </navigation>
